@@ -19,9 +19,9 @@ let me = {
   firstname: "Bryan",
   state: "Arizona",
   age: 31,
-  
+
 }
-function greet(firstname) {
+function me.greet(firstname) {
   console.log("Hello,my name is" + firstname + "and I live in Arizona!");
 }
 
@@ -60,12 +60,10 @@ class carFactory {
     this.model = 'camry';
     this.year = 2020;
   }
-  checkYear(){
-    this.year= >2018
-    this.isNew= true
-    console.log('${this.make} ${this.model} ${this.year}')
-  }
-    let car1: carFactory(make, model, year))
-  
+  checkYear(if('${this.year} < 2018') {console.log ('{this.isNew')}
+}) {
+  this.year = > 2018
+  this.isNew = true
+  console.log('${this.make} ${this.model} ${this.year}')
 }
- 
+let car1: carFactory(make, model, year))

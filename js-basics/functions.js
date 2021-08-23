@@ -21,7 +21,9 @@ return(num1 + num2)
 
 //CODE HERE
 function greaterThanFive(number) {
-  if number => 5 ('True') else ('false')
+  if number => 5 return 'true' 
+  else return 'false'
+   
 
 }
 //////////////////PROBLEM 3////////////////////
@@ -34,7 +36,10 @@ function greaterThanFive(number) {
 
 //CODE HERE
 function findWords(word) {
-let zed = ['z']; 
+let word = "zed"; 
+if word[0] = z console.log 'the name begins with z'
+{else 
+console.log 'the name does begin with z'}
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -46,9 +51,9 @@ let zed = ['z'];
 
 //CODE HERE
 function iLove( name, love){
-let 'name' = 'bryan',
-let 'love' = 'loves dancing'{
-  return name + love;
+let 'name' = bryan
+let 'love' = loves dancing
+  return (name + love);
 }
 
-}
+
