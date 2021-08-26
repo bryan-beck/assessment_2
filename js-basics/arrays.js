@@ -4,13 +4,13 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-var dup_array = faveColors.slice('colorCopy');
+var dup_array = faveColors.slice();
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-var push `purple`;
+dup_array.push('purple')
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -21,8 +21,7 @@ var push `purple`;
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = numbers
-const middleNums = numbers.slice(1, 2, 3);
+const middleNums = numbers.slice(1, 4);
 //////////////////PROBLEM 4////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -49,6 +48,5 @@ function bigOrSmall(arr) {
   return answers
 }
 
-let arrayEvaluator = bigOrSmall(bigOrSmallArray)
-
-console.log(arrayEvaluator)
+let arrayEvaluator = [1,2,3,4,5,100,76,123,200,300]
+console.log(bigOrSmall(arrayEvaluator))
