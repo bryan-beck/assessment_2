@@ -21,10 +21,11 @@ return(num1 + num2)
 
 //CODE HERE
 function greaterThanFive(number) {
-  if number => 5 return 'true' 
-  else return 'false'
-   
-
+  if (number => 5) {
+    return true 
+  } else { 
+    return false
+  } 
 }
 //////////////////PROBLEM 3////////////////////
 /*
@@ -36,12 +37,13 @@ function greaterThanFive(number) {
 
 //CODE HERE
 function findWords(word) {
-let word = "zed"; 
-if word[0] = z console.log 'the name begins with z'
-{else 
-console.log 'the name does begin with z'}
+if (word[0] === 'z') {
+  console.log ('the name begins with z')
+}else { 
+console.log ('the name does not begin with z')
+ }
 }
-
+findWords('zebra')
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -51,9 +53,7 @@ console.log 'the name does begin with z'}
 
 //CODE HERE
 function iLove( name, love){
-let 'name' = bryan
-let 'love' = loves dancing
-  return (name + love);
+ return `${name} loves ${love}`;
 }
-
+console.log(iLove('Bryan', 'Pizza'))
 
