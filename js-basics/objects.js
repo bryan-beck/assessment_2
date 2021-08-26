@@ -19,13 +19,11 @@ let me = {
   firstname: "Bryan",
   state: "Arizona",
   age: 31,
-
+greeter: function() {
+  return ("Hello,my name is " + me.firstname + " and I live in Arizona!");
+ }
 }
-function me.greet(firstname) {
-  console.log("Hello,my name is" + firstname + "and I live in Arizona!");
-}
-
-greet("Bryan");
+console.log(me.greeter());
 
 
 
@@ -56,14 +54,19 @@ greet("Bryan");
 //CODE HERE
 class carFactory {
   constructor(make, model, year) {
-    this.make = 'toyota';
-    this.model = 'camry';
-    this.year = 2020;
+    this.make = make;
+    this.model = model;
+    this.year = year;
   }
-  checkYear(if('${this.year} < 2018') {console.log ('{this.isNew')}
-}) {
-  this.year = > 2018
-  this.isNew = true
-  console.log('${this.make} ${this.model} ${this.year}')
+  checkYear() {
+    if (this.year > 2018) {
+      this.isNew = true
+    } else {
+      this.isNew = false
+    }
+  }
 }
-let car1: carFactory(make, model, year))
+
+let car = new carFactory('toyota', 'camry', 2019)
+car.checkYear()
+console.log(car)
