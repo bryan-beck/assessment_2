@@ -10,7 +10,7 @@ let faveNum = 10
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
-let lovesCode = True
+let lovesCode = true
 //CODE HERE
 
 //////////////////PROBLEM 4////////////////////
@@ -19,10 +19,10 @@ let lovesCode = True
   equal to 13. If it is, console.log('lucky 13!'). 
   If it's not, console.log('not lucky 13').
 */
-if (faveNum === 13)
-{(console.log 'lucky 13')
-}
-{else (console.log 'not lucky 13')
+if (faveNum === 13){
+  console.log ('lucky 13')
+}else{ 
+  console.log ('not lucky 13')
 }
 //CODE HERE
 
@@ -31,8 +31,6 @@ if (faveNum === 13)
   Write a for loop that prints out your faveNum 5 times.
 */
 for (let i = 0; i <5; i++) {
-  [1,2,3,4,5].forEach(function(i) {
-    faveNum(console.log (i));
-  })
-  }
+  console.log(faveNum);
+}
 //CODE HERE
